@@ -1,0 +1,26 @@
+public class artikYil {
+    public static void main(String[] args) {
+
+        int yilgiriniz;
+        int kalan;
+
+
+        Scanner scan1 = new Scanner(System.in);
+        System.out.println("yıl giriniz:");
+        yilgiriniz = scan1.nextInt();
+        kalan = ((yilgiriniz%100)%4);
+        
+        switch (kalan) {
+            case 0:
+                System.out.println(yilgiriniz + " " + "Artık yıldır ");
+                break;
+
+
+
+        }
+
+
+    }
+
+}
+
